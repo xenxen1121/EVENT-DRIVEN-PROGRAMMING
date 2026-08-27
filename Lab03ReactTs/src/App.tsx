@@ -1,4 +1,4 @@
-import { Panel } from "./components/Panel";
+/*import { Panel } from "./components/Panel";
 import { Badge } from "./components/Badge";
 
 function App() {
@@ -23,6 +23,26 @@ function App() {
         <Badge tone="error">Cancelled</Badge>
       </Panel>
     </main>
+  );
+}
+
+export default App;*/
+
+import CounterPanel from "./components/CounterPanel";
+import FilterList from "./components/FilterList";
+import ClockLabel from "./components/ClockLabel";
+
+function App() {
+  return (
+    <>
+      <h1>LAB04 React + TypeScript</h1>
+
+      <CounterPanel />
+
+      <FilterList />
+
+      <ClockLabel />
+    </>
   );
 }
 
